@@ -5,3 +5,10 @@ function getFirstSelector(selector){
 function nestedTarget(){
   return document.querySelector('div#nested div.target')
 }
+
+function increaseRankBy(n){
+  let rankedLists = document.querySelectorAll('ul.ranked-list')
+  for (element in rankedLists) {
+    debugger
+  } 
+}
