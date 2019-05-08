@@ -9,6 +9,6 @@ function nestedTarget(){
 function increaseRankBy(n){
   let rankedLists = document.querySelectorAll('ul.ranked-list')
   for (const element in rankedLists) {
-    element + n
+    element += n
   }
 }
